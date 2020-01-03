@@ -84,17 +84,28 @@ def hurricanes_in_year(year):
 
 First, I wanted to find the hurricane with the highest wind speeds, I did this by creating a list of all wind speeds in `hurricanes.csv` and then finding the max of that list which was 190. Next to find the name of the hurricane with the highest wind speeds, looped through the data and found where mph was equal to 190 and returned the index, then using this index I could find the name of the hurricane at this index. 
 
+<img src="img/Highest Wind Speed.png" width="400">
+
 
 Next, I wanted to find the damage caused by hurricane Dolphin. This was done by looping through the data to find where name is equal to `Dolphin` and then getting the damage from this index and converting it to a monetary value using the `cost` function from above. Thus I was able to find that hurricane Dolphin caused $13,500,000 worth of damage.
 
+<img src="img/Dolphin Damage.png" width="400">
 
 I then wanted to find the number of deaths caused by all hurricanes in `hurricanes.csv`. To do this, I looped through the data, looking for the number of deaths for each hurricane and adding that value to the total for all the hurricanes before it. This gave me a total of 18,959.
 
+<img src="img/Total Deaths.png" width="400">
 
 Using the `deadliest_in_range` function from above, I found that hurricane Maria was the most deadly from 2010 to 2019, Hurricane Inez was the most deadly in the 20th century and the most deadly hurricane in the dataset was formed in 1899.
 
+<img src="img/Deadliest Hurricanes.png" width="400">
 
 The value of the damage done by hurricane Inez was also found to be $226,500,000 and the total damage of all hurricanes in the dataset were found to be $864,230,464,997
 
+<img src="img/Hurricane Damage.png" width="400">
 
 Lastly, I wanted to analyze when hurricanes occurred. Thus, I was able to use the `hurricanes_in_month` and `hurricanes_in_year` functions to get the number of hurricanes that occur in certain months or years. In the month of July, there were 17 hurricanes formed. In December and January, there were 3 hurricanes. In May, there were 2. The month that had the most hurricanes was September. Using the data, I was also able to find that there were 10 years with at least 4 hurricanes formed.  
+
+<img src="img/Hurricanes In Month.png" width="400">
+
+<img src="img/Hurricane Years.png" width="400">
+
